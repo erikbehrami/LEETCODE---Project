@@ -61,8 +61,7 @@ start:
         cin >> address;
         cout << "Undefanged IpAdress: " << address << endl;
         string defanged_ip = defangIPaddr(address);
-
-        vector<int> smallerNumbersThanCurrent(vector<int>&nums);
+        
         cout << "The defanged IpAddress is: " << defanged_ip;
         break;
     }
